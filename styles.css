@@ -4,22 +4,23 @@
    ----------------------------------------------------------------------- */
 
 :root {
-    --cor: #c77b93;
-    /* rosa confeitaria suave */
-    --cor-escura: #8d4e63;
-    /* rosa amarronzado */
+    --cor: #b76e79;
+    /* rose gold */
+    --cor-escura: #9c5a66;
+    /* rose gold escuro */
     --verde: #25d366;
     --verde-escuro: #128c7e;
-    --fundo: #f6ece0;
-    /* creme / baunilha */
-    --cartao: #fffaf3;
-    /* branco quente */
-    --texto: #4a3730;
-    /* marrom chocolate */
-    --texto-suave: #9a857a;
-    --borda: #ecdccb;
-    /* bege suave */
-    --sombra: 0 4px 14px rgba(120, 80, 60, 0.12);
+    --fundo: #f7ebe6;
+    /* rosa bebê / bege suave */
+    --cartao: #ffffff;
+    /* branco */
+    --texto: #4a4345;
+    /* cinza escuro */
+    --texto-suave: #9a9095;
+    /* cinza suave */
+    --borda: #e8dcd6;
+    /* bege rosado */
+    --sombra: 0 4px 14px rgba(150, 120, 120, 0.14);
     --raio: 16px;
 }
 
