@@ -15,7 +15,7 @@
 const CONFIG = {
     nomeLoja: "Edna Doces",
     whatsapp: "5511958259204",              // WhatsApp da Edna
-    chavePix: "",                            // TODO: chave Pix da Edna
+    chavePix: "57.185.773/0001-57",          // Pix da Edna (CNPJ)
     // Link de avaliação do Google (quando tiver).
     linkAvaliacao: "",
     produtos: [
