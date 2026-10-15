@@ -106,16 +106,16 @@ const CONFIG = {
         {
             categoria: "Sobremesas",
             nome: "Copo da Felicidade M",
-            descricao: "Copo da felicidade — tamanho M. Camadas de bolo, creme e chocolate.",
+            descricao: "Copo da felicidade — tamanho M. Camadas de bolo, creme, morango e muito mais.",
             preco: 15.00,
-            imagem: "Captura de tela 2026-10-15 191601.png"
+            imagem: "Captura de tela 2026-10-15 191621.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Copo da Felicidade G",
-            descricao: "Copo da felicidade — tamanho G. Camadas de bolo, creme e chocolate.",
+            descricao: "Copo da felicidade — tamanho G. Camadas de bolo, creme, morango e muito mais.",
             preco: 20.00,
-            imagem: "Captura de tela 2026-10-15 191637.png"
+            imagem: "Captura de tela 2026-10-15 191601.png"
         },
         {
             categoria: "Sobremesas",
