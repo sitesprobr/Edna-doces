@@ -22,7 +22,7 @@ const CONFIG = {
         {
             categoria: "Docinhos",
             nome: "Brigadeiro e Beijinho Tradicional",
-            descricao: "Cento de docinhos tradicionais (brigadeiro e beijinho). Sob encomenda — 100 unidades.",
+            descricao: "Cento de docinhos tradicionais (brigadeiro e beijinho). 100 unidades. Somente sob encomenda.",
             preco: 70.00,
             imagem: "imagens/brigadeiro-beijinho.jpg"
         },
@@ -43,7 +43,7 @@ const CONFIG = {
         {
             categoria: "Salgados",
             nome: "Salgadinhos Sortidos",
-            descricao: "Cento de salgadinhos sortidos (fritos ou assados). 100 unidades.",
+            descricao: "Cento de salgadinhos sortidos (fritos ou assados). 100 unidades. Somente sob encomenda.",
             preco: 60.00,
             imagem: "imagens/salgados.jpg"
         },
