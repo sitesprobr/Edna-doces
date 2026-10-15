@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edna Doces — Doces e Salgados Artesanais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="topo" id="inicio">
+        <div class="topo-conteudo">
+            <div class="logo">
+                <span class="logo-icone">🍮</span>
+                <div>
+                    <h1 id="nome-loja">Edna Doces</h1>
+                    <p class="slogan">Doces e salgados feitos com carinho</p>
+                </div>
+            </div>
+            <button id="abrir-carrinho" class="btn-carrinho">
+                🛒 Pedido <span id="contador" class="contador">0</span>
+            </button>
+        </div>
+        <!-- Menu de navegação -->
+        <nav class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#cat-docinhos">Docinhos</a>
+            <a href="#cat-salgados">Salgados</a>
+            <a href="#cat-bolos">Bolos</a>
+            <a href="#cat-sobremesas">Sobremesas</a>
+            <a href="#" id="link-pedido">Pedido</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h2>Nossas delícias 🍰</h2>
+        <p>Escolha o que quiser, monte seu pedido e finalize pelo WhatsApp.</p>
+    </section>
+
+    <!-- Catálogo -->
+    <main class="conteudo">
+        <div id="catalogo" class="catalogo"></div>
+    </main>
+
+    <!-- Botão flutuante do pedido -->
+    <button id="carrinho-flutuante" class="wpp-flutuante" title="Ver pedido">
+        🛒<span id="contador-flutuante" class="contador-flutuante">0</span>
+    </button>
+
+    <!-- ================= PEDIDO (painel lateral) ================= -->
+    <div id="overlay-carrinho" class="overlay-carrinho oculto"></div>
+    <aside id="painel-carrinho" class="painel-carrinho">
+        <div class="carrinho-cabecalho">
+            <h3>Seu pedido</h3>
+            <button id="fechar-carrinho" class="fechar">✕</button>
+        </div>
+
+        <div id="itens-carrinho" class="itens-carrinho"></div>
+
+        <div class="carrinho-rodape">
+            <label class="obs-label">Seu nome
+                <input type="text" id="cliente-nome" placeholder="Nome completo">
+            </label>
+            <label class="obs-label">Telefone / WhatsApp
+                <input type="tel" id="cliente-tel" placeholder="(11) 9____-____">
+            </label>
+            <label class="obs-label">Endereço de entrega
+                <input type="text" id="cliente-endereco" placeholder="Rua, número, bairro, referência">
+            </label>
+            <label class="obs-label">Observações (opcional)
+                <input type="text" id="observacoes" placeholder="Ex: sabor, data de entrega...">
+            </label>
+            <div class="total-linha">
+                <span>Total:</span>
+                <strong id="total-carrinho">R$ 0,00</strong>
+            </div>
+            <button id="finalizar" class="btn-finalizar">Finalizar pelo WhatsApp</button>
+        </div>
+    </aside>
+
+    <!-- Informações da loja -->
+    <section class="infos" id="contato">
+        <div class="info-card horarios">
+            <h2>🕒 Horário de Atendimento</h2>
+            <ul class="lista-horarios">
+                <li><span>Segunda-feira</span> <strong>18h às 22h</strong></li>
+                <li><span>Terça-feira</span> <strong>18h às 22h</strong></li>
+                <li><span>Quarta-feira</span> <strong>18h às 22h</strong></li>
+                <li><span>Quinta-feira</span> <strong>18h às 22h</strong></li>
+                <li><span>Sexta-feira</span> <strong>18h às 22h</strong></li>
+                <li><span>Sábado</span> <strong>15h às 22h</strong></li>
+                <li><span>Domingo</span> <strong>14h às 22h</strong></li>
+            </ul>
+        </div>
+
+        <div class="info-card pagamentos">
+            <h2>💳 Formas de Pagamento</h2>
+            <ul class="lista-pagamentos">
+                <li>📱 Pix</li>
+                <li>💵 Dinheiro na entrega</li>
+            </ul>
+        </div>
+
+        <div class="info-card endereco">
+            <h2>📍 Endereço</h2>
+            <p class="endereco-texto">
+                Rua Chá da Índia, 17
+            </p>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>Edna Doces · Doces e Salgados Artesanais · Pedidos pelo WhatsApp</p>
+    </footer>
+
+    <!-- Tela de agradecimento -->
+    <div id="overlay-obrigado" class="overlay-carrinho oculto"></div>
+    <div id="modal-obrigado" class="modal-obrigado oculto">
+        <button id="fechar-obrigado" class="fechar-obrigado" aria-label="Fechar">✕</button>
+        <span class="obrigado-icone">🍮</span>
+        <h3>Pedido enviado!</h3>
+        <p>Obrigada pela preferência 💕<br>Seu pedido foi aberto no WhatsApp, é só enviar.</p>
+    </div>
+
+    <!-- Visualizador de imagem (abre a foto ampliada ao clicar) -->
+    <div id="lightbox" class="lightbox oculto">
+        <button id="lightbox-fechar" class="lightbox-fechar" aria-label="Fechar">✕</button>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="">
+        <p id="lightbox-legenda" class="lightbox-legenda"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
