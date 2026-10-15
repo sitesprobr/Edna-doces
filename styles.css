@@ -801,3 +801,28 @@ a[href*="netlify.com"][class*="badge"],
     cursor: pointer;
     color: var(--texto-suave);
 }
+
+/* Aviso de retirada / presencial na Edna Doces */
+.aviso-horario {
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    background: #fff8ec;
+    border: 1px solid #f0dcae;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--texto);
+}
+
+/* Aviso de encomenda 48h no banner */
+.aviso-encomenda {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    background: #fff3cd;
+    border: 1px solid #e0b84c;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    color: #8a6d3b;
+    font-weight: 600;
+}
