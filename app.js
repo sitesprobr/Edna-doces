@@ -85,9 +85,16 @@ const CONFIG = {
         {
             categoria: "Bolos",
             nome: "Fatias",
-            descricao: "Fatia generosa de bolo.",
+            descricao: "Fatia generosa de bolo com pudim.",
             preco: 20.00,
-            imagem: "Captura de tela 2026-10-15 191734.png"
+            imagem: "Captura de tela 2026-10-15 200811.png"
+        },
+        {
+            categoria: "Bolos",
+            nome: "Bolo de Chocolate",
+            descricao: "Bolo de chocolate com cobertura cremosa e pedaços de chocolate.",
+            preco: 20.00,
+            imagem: "Captura de tela 2026-10-15 200823.png"
         },
         {
             categoria: "Sobremesas",
@@ -120,23 +127,23 @@ const CONFIG = {
         {
             categoria: "Sobremesas",
             nome: "Fondue Brownie P",
-            descricao: "Fondue de brownie — tamanho P.",
+            descricao: "Fondue de brownie com molhos de chocolate e creme — tamanho P.",
             preco: 19.99,
-            imagem: "Captura de tela 2026-10-15 191648.png"
+            imagem: "Captura de tela 2026-10-15 200959.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Fondue Brownie M",
-            descricao: "Fondue de brownie — tamanho M.",
+            descricao: "Fondue de brownie com molhos de chocolate e creme — tamanho M.",
             preco: 25.99,
-            imagem: "Captura de tela 2026-10-15 191657.png"
+            imagem: "Captura de tela 2026-10-15 200959.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Fondue Brownie G",
-            descricao: "Fondue de brownie — tamanho G.",
+            descricao: "Fondue de brownie com molhos de chocolate e creme — tamanho G.",
             preco: 35.99,
-            imagem: "Captura de tela 2026-10-15 191621.png"
+            imagem: "Captura de tela 2026-10-15 200959.png"
         },
         {
             categoria: "Sobremesas",
