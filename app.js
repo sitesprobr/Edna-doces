@@ -24,133 +24,133 @@ const CONFIG = {
             nome: "Brigadeiro e Beijinho Tradicional",
             descricao: "Cento de docinhos tradicionais (brigadeiro e beijinho). 100 unidades. Somente sob encomenda.",
             preco: 70.00,
-            imagem: "imagens/brigadeiro-beijinho.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191344.png"
         },
         {
             categoria: "Docinhos",
             nome: "Pão de Mel",
             descricao: "Pão de mel artesanal. Sabores: brigadeiro, coco ou doce de leite.",
             preco: 6.00,
-            imagem: "imagens/pao-de-mel.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191540.png"
         },
         {
             categoria: "Docinhos",
             nome: "Brownie Recheado",
             descricao: "Brownie recheado, macio e irresistível.",
             preco: 7.00,
-            imagem: "imagens/brownie-recheado.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191710.png"
         },
         {
             categoria: "Salgados",
             nome: "Salgadinhos Sortidos",
             descricao: "Cento de salgadinhos sortidos (fritos ou assados). 100 unidades. Somente sob encomenda.",
             preco: 60.00,
-            imagem: "imagens/salgados.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191406.png"
         },
         {
             categoria: "Salgados",
             nome: "Coxinha de Frango",
             descricao: "Coxinha de frango crocante e saborosa.",
             preco: 10.00,
-            imagem: "imagens/coxinha.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191531.png"
         },
         {
             categoria: "Salgados",
             nome: "Frango com Catupiry",
             descricao: "Salgado de frango com catupiry, cremoso e crocante.",
             preco: 10.00,
-            imagem: "imagens/frango-catupiry.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191514.png"
         },
         {
             categoria: "Bolos",
             nome: "Bolo de Pote",
             descricao: "Delicioso bolo de pote cremoso.",
             preco: 15.00,
-            imagem: "imagens/bolo-de-pote.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191327.png"
         },
         {
             categoria: "Bolos",
             nome: "Bolo de Aniversário",
             descricao: "Bolo de aniversário sob encomenda. Valor por quilo.",
             preco: 75.00,
-            imagem: "imagens/bolo-aniversario.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191424.png"
         },
         {
             categoria: "Bolos",
             nome: "Caseirinho",
             descricao: "Bolo caseiro feito com carinho.",
             preco: 15.00,
-            imagem: "imagens/caseirinho.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191452.png"
         },
         {
             categoria: "Bolos",
             nome: "Fatias",
             descricao: "Fatia generosa de bolo.",
             preco: 20.00,
-            imagem: "imagens/fatias.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191734.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Brownie Supremo",
             descricao: "Brownie supremo, intenso e chocolatudo.",
             preco: 20.00,
-            imagem: "imagens/brownie-supremo.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191551.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Copo da Felicidade P",
             descricao: "Copo da felicidade — tamanho P. Camadas de bolo, creme e chocolate.",
             preco: 12.00,
-            imagem: "imagens/copo-felicidade.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191612.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Copo da Felicidade M",
             descricao: "Copo da felicidade — tamanho M. Camadas de bolo, creme e chocolate.",
             preco: 15.00,
-            imagem: "imagens/copo-felicidade.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191601.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Copo da Felicidade G",
             descricao: "Copo da felicidade — tamanho G. Camadas de bolo, creme e chocolate.",
             preco: 20.00,
-            imagem: "imagens/copo-felicidade.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191637.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Fondue Brownie P",
             descricao: "Fondue de brownie — tamanho P.",
             preco: 19.99,
-            imagem: "imagens/fondue-brownie.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191648.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Fondue Brownie M",
             descricao: "Fondue de brownie — tamanho M.",
             preco: 25.99,
-            imagem: "imagens/fondue-brownie.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191657.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Fondue Brownie G",
             descricao: "Fondue de brownie — tamanho G.",
             preco: 35.99,
-            imagem: "imagens/fondue-brownie.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191621.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Pudim P",
             descricao: "Pudim cremoso — tamanho P.",
             preco: 10.00,
-            imagem: "imagens/pudim.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191749.png"
         },
         {
             categoria: "Sobremesas",
             nome: "Pudim M",
             descricao: "Pudim cremoso — tamanho M.",
             preco: 15.00,
-            imagem: "imagens/pudim.jpg"
+            imagem: "imagens/Captura de tela 2026-10-15 191749.png"
         }
     ]
 };
