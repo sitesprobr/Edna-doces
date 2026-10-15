@@ -126,6 +126,27 @@ const CONFIG = {
         },
         {
             categoria: "Sobremesas",
+            nome: "Copo da Felicidade Chocolate P",
+            descricao: "Copo da felicidade de chocolate — tamanho P. Camadas de brownie, brigadeiro e muito chocolate.",
+            preco: 12.00,
+            imagem: "Captura de tela 2026-10-15 191648.png"
+        },
+        {
+            categoria: "Sobremesas",
+            nome: "Copo da Felicidade Chocolate M",
+            descricao: "Copo da felicidade de chocolate — tamanho M. Camadas de brownie, brigadeiro e muito chocolate.",
+            preco: 15.00,
+            imagem: "Captura de tela 2026-10-15 191657.png"
+        },
+        {
+            categoria: "Sobremesas",
+            nome: "Copo da Felicidade Chocolate G",
+            descricao: "Copo da felicidade de chocolate — tamanho G. Camadas de brownie, brigadeiro e muito chocolate.",
+            preco: 20.00,
+            imagem: "Captura de tela 2026-10-15 191637.png"
+        },
+        {
+            categoria: "Sobremesas",
             nome: "Fondue Brownie P",
             descricao: "Fondue de brownie com molhos de chocolate e creme — tamanho P.",
             preco: 19.99,
